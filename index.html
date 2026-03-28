@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" href="./images/Mini image.png">
+</head>
+<body>
+    <header>
+        <span class="logo"><i class="fas fa-microchip"></i> Yura Tyholaz</span>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">projects</a>
+            <a href="#gallery">gallery</a>
+
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu"><i class="fas fa-bars"></i></div>
+    </header>
+    <main>
+        <section id="home" class="about">
+            <img src="./images/image.png" alt="none">
+            <div class="right_side">
+                <div class="text">
+                    <h1>Hi, It's <span class="accent">Yura</span></h1>
+                    <h2>I'm a <span class="accent">Web Designer</span></h2>
+                    <p>Hello! My name is Yura Tyholaz. I create websites and enjoy experimenting with design and code.</p>
+                </div>
+                <div class="social">
+                    <i class="fab fa-discord"></i>
+                    <i class="fab fa-github"></i>
+                    <i class="fab fa-telegram"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <button class="hire-btn">Hire me</button>
+            </div>
+        </section>
+        <section id="skills" class="achievements">
+            <h1 class="section-title">What I Can Do</h1>
+            <ul class="achievements-list">
+                <li>>_ Create simple websites using HTML5</li>
+                <li>>_ Style pages with CSS3</li>
+                <li>>_ Build basic layouts using Flexbox</li>
+                <li>>_ Make responsive designs</li>
+                <li>>_ Write Python scripts</li>
+                <li>>_ Understand Python syntax</li>
+                <li>>_ Work with Arduino (basic circuits and sketches)</li>
+                <li>>_ Upload and modify Arduino code</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-cards">
+                <div class="card">
+                    <h3>Gamestore Website</h3>
+                    <img src="./images/Gaming website.png" alt="None">
+                    <p>Gamestore page created using HTML, CSS, and a bit of JS</p>
+                </div>
+                <div class="card">
+                    <h3>Python Telegram-bot</h3>
+                    <img src="./images/Telegram bot.png" alt="None">
+                    <p>Telegram-bot that can check status of your ip devices in live time</p>
+                </div>
+                <div class="card">
+                    <h3>Arduino Simple game-console</h3>
+                    <img src="./images/Console.png" alt="None">
+                    <p>Simple console with some games</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery-wrapper">
+            <h1 class="section-title">Its just a gallery</h1>
+            <div class="gallery">
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/408/800/600.jpg?hmac=UjMcScedmH-EybfYCbKWYQtu1AGuv4MdAYPjFNHGm1U" alt="">
+                </div> 
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/71/800/600.jpg?hmac=z2xxvyDjTaLHxK11DGtlFs47x09p9ZBU36yqbplk8SI" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/166/800/600.jpg?hmac=F2OA6vuedcUXgwper6Olf0pXkCB17KGC33_UlQJ-srg" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/305/800/600.jpg?hmac=6x10k7bxkWwHgvE15xPztjvrbCvUcIwV_Z5w_V79q2M" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/987/800/600.jpg?hmac=oEIZO0xXu2WpoZhNiD7TBhZW0T2WOrTU6T4uu9YAi8A" alt="">
+                </div>
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/640/800/600.jpg?hmac=HEH4tUUWfoenhKV0hKUPcP5jXCGf258biQL6J68eUIU" alt="">
+                </div>     
+                <div class="image">
+                    <img src="https://fastly.picsum.photos/id/396/800/600.jpg?hmac=rqtNNjIatnwUVvJG5SsW-6SeYefgD-ZcIVCNJKRKCNg" alt="">
+                </div>
+            </div>     
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>       
+    </main>
+    <footer>
+        <p>&copy; 2026 Yura Tyholaz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
